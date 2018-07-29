@@ -4,7 +4,7 @@ body{
     line-height: 1.5;
     padding: 0;
     margin: 0;
-    background-color: rgb(245, 238, 228);
+    
 }
 
 /* global items */
@@ -12,7 +12,7 @@ body{
 .container {
     margin: auto;
     width: 80%;
-    overflow: hidden;
+    
 }
 
 #highlight {
@@ -22,8 +22,8 @@ body{
 
 header{
     color: black;
-    padding-top: 20px;
-    min-height: 8vh;
+    padding-top: 21px;
+    min-height: 6vh;
 }
 
 #branding {
@@ -53,30 +53,51 @@ nav li a {
 /* center piece */
 
 .centerPiece {
-    height: 50vh;
-    width: calc(80% + 30px);
+    height: 90vh;
     margin: auto;
-    overflow: hidden;
     color: white;
-    background-image: url('mainBackground.jpg');
+    background-image: url("mainBackground.jpg");
     background-size: cover;
-    box-shadow: 0 0 15px 15px rgb(245, 238, 228) inset;
 }
+
+
 .centerPiece h1 {
     text-align: center;
-    font-size: 30px;
-    padding-top: 30px;
+    font-size: 40px;
+    padding-top: 100px;
+    
 }
 
 .centerPiece p {
     text-align: center;
-    font-size: 20px;
+    font-size: 30px;
+    margin-bottom: 490px;
 }
+
+.centerPiece button {
+    display: block;
+    margin: 0 auto;
+    border: none;
+    font-size: 20px;
+    padding: 10px;
+    box-shadow: 3px 5px black;
+    
+}
+.centerPiece button a {
+    text-decoration: none;
+    color: black;
+    
+}
+
+.centerPiece button:hover {
+    margin-top: -6px;
+}
+
 
 
 /* intro */
 
-.intro {
+#intro {
     color: black;
     height: 10vh;
 }
@@ -110,7 +131,7 @@ footer {
     header #branding, 
     header nav, 
     header nav li,
-    .intro {
+    #intro {
         float: none;
         text-align: center;
         width: 100%;
