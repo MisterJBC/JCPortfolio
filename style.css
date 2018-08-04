@@ -140,10 +140,12 @@ footer {
 
     .centerPiece h1 {
         padding-top: 10px;
+        margin-bottom: 110px;
     }
 
     .centerPiece p{
         padding-top: 85px;
+        margin-bottom: 10px;
     }
 
     .intro {
